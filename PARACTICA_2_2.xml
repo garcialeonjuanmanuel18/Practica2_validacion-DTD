@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetario [
+<!ELEMENT recetario (receta+)>
+<!ELEMENT receta (nombre, dificultad?, ingredientes+, pasos+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dificultad (#PCDATA)>
+<!ELEMENT ingredientes (item+)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT pasos (instruccion+)>
+<!ELEMENT instruccion (#PCDATA)>
+
+]>
+
+<recetario>
+    <receta>
+        <nombre>Arroz basmati</nombre>
+        <dificultad>mucha</dificultad>
+        <ingredientes>
+            <item>arroz</item>
+            <item>pollo</item>
+        </ingredientes>
+        <pasos>
+            <instruccion>hierve agua</instruccion>
+            <instruccion>echa el arroz</instruccion>
+            <instruccion>frie pollo</instruccion>
+            <instruccion>mezcla</instruccion>
+        </pasos>
+    </receta>
+    <receta>
+        <nombre>Arroz a la cubana</nombre>
+        <ingredientes>
+            <item>arroz</item>
+            <item>salchichas</item>
+            <item>tomate frito</item>
+        </ingredientes>
+        <pasos>
+            <instruccion>hierve agua</instruccion>
+            <instruccion>echa el arroz</instruccion>
+            <instruccion>frie salchichas</instruccion>
+            <instruccion>echa el tomate y mezcla</instruccion>
+        </pasos>
+    </receta>
+</recetario>
