@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aula [
+<!ELEMENT aula (equipo+)>
+<!ELEMENT equipo (id, cpu, ram, observaciones?)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT cpu (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+]>
+
+<aula>
+    <equipo>
+        <id>hdgsfgds</id>
+        <cpu>6587</cpu>
+        <ram>67uyt</ram>
+        <observaciones>está muy bien</observaciones>
+    </equipo>
+    <equipo>
+        <id>hsdhjgg</id>
+        <cpu>1234</cpu>
+        <ram>28</ram>
+    </equipo>
+</aula>
